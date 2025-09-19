@@ -1,12 +1,14 @@
 package com.yu.gateway.common.config;
 
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
+@Slf4j
 /**
  * 1.缓存从配置中心获取的配置信息（Rule规则配置、Service服务配置）；
  * 2.动态更新配置信息；
@@ -52,6 +54,7 @@ public class DynamicConfigManager {
 
     /******* 对服务定义缓存的相关方法 ********/
     public void putServiceDefinition(String uniqueId, ServiceDefinition definition) {
+        log.info("putServiceDefinition {} -> {}", uniqueId, definition);
         serviceDefinitionMap.put(uniqueId, definition);
     }
 
@@ -171,6 +174,7 @@ public class DynamicConfigManager {
     }
 
     public List<Rule> getRuleByServiceId(String serviceId) {
-        return serviceRuleMap.get(serviceId);
+        log.info("getRuleByServiceId {}", serviceId);
+        return serviceRuleMap.getOrDefault(serviceId, Collections.emptyList());
     }
 }

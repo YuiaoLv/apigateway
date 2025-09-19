@@ -1,0 +1,10 @@
+com\yu\gateway\client\api\ApiService.class
+com\yu\gateway\client\api\ApiAnnotationScanner$SingletonHolder.class
+com\yu\gateway\client\api\ApiAnnotationScanner.class
+com\yu\gateway\client\manager\AbstractClientRegisterManager.class
+com\yu\gateway\client\api\ApiInvoker.class
+com\yu\gateway\client\autoconfigure\ApiClientAutoConfiguration.class
+com\yu\gateway\client\manager\SpringMVCClientRegisterManager.class
+com\yu\gateway\client\api\ApiProperties.class
+com\yu\gateway\client\api\ApiProtocol.class
+META-INF\spring-configuration-metadata.json
