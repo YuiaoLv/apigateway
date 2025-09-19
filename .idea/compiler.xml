@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="YuGateway-Dubbo" />
+        <module name="YuGateway-Register-Center-Nacos-Impl" />
+        <module name="YuGateway-Config-Center" />
+        <module name="YuGateway-Core" />
+        <module name="YuGateway-http-1" />
+        <module name="YuGateway-http-2" />
+        <module name="YuGateway-Common" />
+        <module name="YuGateway-Register-Center-Api" />
+        <module name="YuGateway-Client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="YuGateway-UserService" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="YuGateway-UserService" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+com\yu\gateway\httpService\Application.class
+com\yu\gateway\httpService\controller\HttpController.class
+com\yu\gateway\httpService\entity\UserInfo.class
+com\yu\gateway\httpService\controller\UserController.class
+com\yu\gateway\httpService\entity\UserInfo$UserInfoBuilder.class
