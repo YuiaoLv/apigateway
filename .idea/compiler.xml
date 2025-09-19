@@ -9,18 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="YuGateway-Register-Center-Nacos-Impl" />
         <module name="YuGateway-Config-Center" />
-        <module name="BlossomGateway-Dubbo-Interface" />
-        <module name="BlossomGateway-Dubbo-Service" />
         <module name="YuGateway-Core" />
         <module name="YuGateway-http-1" />
         <module name="YuGateway-http-2" />
         <module name="YuGateway-Common" />
         <module name="YuGateway-Register-Center-Api" />
-        <module name="BlossomGateway-Dubbo-Web" />
+        <module name="YuGateway-Dubbo-Interface" />
+        <module name="YuGateway-Dubbo-Service" />
         <module name="YuGateway-Client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BlossomGateway-Dubbo-Service" target="19" />
+      <module name="BlossomGateway-Dubbo-Web" target="19" />
       <module name="YuGateway-UserService" target="19" />
     </bytecodeTargetLevel>
   </component>

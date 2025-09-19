@@ -5,12 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.yu</groupId>
-        <artifactId>YuGateway-master</artifactId>
+        <artifactId>YuGateway-Dubbo-Web</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>BlossomGateway-Dubbo-Service</artifactId>
+    <artifactId>YuGateway-Dubbo-Service</artifactId>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>

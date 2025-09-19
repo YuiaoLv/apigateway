@@ -12,7 +12,8 @@
     <artifactId>YuGateway-Dubbo</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>BlossomGateway-Dubbo-Interface</module>
+        <module>YuGateway-Dubbo-Interface</module>
+        <module>YuGateway-Dubbo-Web</module>
     </modules>
 
     <properties>
