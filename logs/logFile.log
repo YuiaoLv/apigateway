@@ -7869,3 +7869,96 @@ java.lang.NullPointerException: Cannot invoke "com.yu.gateway.common.config.Serv
 2025-09-19 19:20:19.806  WARN  [Thread-0] c.a.n.c.h.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
 2025-09-19 19:20:19.806  WARN  [Thread-3] c.a.n.c.n.NotifyCenter - [NotifyCenter] Destruction of the end
 2025-09-19 19:20:19.806  WARN  [Thread-0] c.a.n.c.h.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-19 20:06:50.037  INFO  [main] c.a.n.c.l.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-09-19 20:06:50.041  INFO  [main] c.a.n.c.l.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-09-19 20:06:50.047  INFO  [main] c.a.n.c.l.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-09-19 20:06:50.048  INFO  [main] c.a.n.c.l.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-09-19 20:06:50.157  INFO  [main] c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-09-19 20:06:50.157  INFO  [main] c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-09-19 20:06:50.838  INFO  [main] c.a.n.c.a.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-09-19 20:06:50.842  INFO  [main] c.a.n.c.a.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-09-19 20:06:50.843  INFO  [main] c.a.n.c.a.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-09-19 20:06:50.845  INFO  [main] c.a.n.c.a.d.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-09-19 20:06:50.913  INFO  [main] c.y.g.c.c.n.i.NacosConfigCenter - Rules-Config From Nacos: null
+2025-09-19 20:06:50.948  WARN  [main] c.y.g.c.c.n.i.NacosConfigCenter - Failed to parse config JSON from Nacos, result is null
+2025-09-19 20:06:50.978  INFO  [main] c.y.g.c.f.GatewayFilterChainFactory - load filter success:class com.yu.gateway.core.filter.auth.AuthFilter,auth_filter,auth_filter,1
+2025-09-19 20:06:50.980  INFO  [main] c.y.g.c.f.GatewayFilterChainFactory - load filter success:class com.yu.gateway.core.filter.loadBalance.LoadBalanceFilter,load_balance_filter,load_balance_filter,100
+2025-09-19 20:06:50.982  INFO  [main] c.y.g.c.f.GatewayFilterChainFactory - load filter success:class com.yu.gateway.core.filter.router.RouterFilter,router_filter,router_filter,2147483647
+2025-09-19 20:06:50.982  INFO  [main] c.y.g.c.f.GatewayFilterChainFactory - load filter success:class com.yu.gateway.core.filter.gray.GrayFilter,gray_filter,gray_filter,4
+2025-09-19 20:06:50.983  INFO  [main] c.y.g.c.f.GatewayFilterChainFactory - load filter success:class com.yu.gateway.core.filter.flow.FlowControlFilter,flow_ctl_filter,flow_ctl_filter,50
+2025-09-19 20:06:51.311  WARN  [main] i.n.b.ServerBootstrap - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0xec7c7738]'
+2025-09-19 20:06:51.318  INFO  [main] c.y.g.c.n.NettyHttpServer - server startup on port 8888
+2025-09-19 20:06:51.319  INFO  [main] c.y.g.c.Container - api gateway starting!
+2025-09-19 20:06:51.325  INFO  [main] c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-09-19 20:06:51.326  INFO  [main] c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-09-19 20:06:51.338  INFO  [main] c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-09-19 20:06:51.338  INFO  [main] c.a.n.p.a.s.c.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-09-19 20:06:51.520  INFO  [main] c.y.g.r.c.n.i.NacosRegisterCenter - register com.yu.gateway.common.config.ServiceDefinition@5229e9b0 com.yu.gateway.common.config.ServiceInstance@39449bd7
+2025-09-19 20:06:51.538  INFO  [main] c.y.g.r.c.n.i.NacosRegisterCenter - service list size 1
+2025-09-19 20:06:51.543  INFO  [main] c.y.g.r.c.n.i.NacosRegisterCenter - Nacos event is {"serviceName":"api-gateway"}
+2025-09-19 20:06:51.592  INFO  [main] c.y.g.c.BootStrap - refresh service and instance: api-gateway [{"gray":false,"port":8888,"registerTime":1758283611455,"enable":true,"ip":"10.19.22.108","serviceInstanceId":"10.19.22.108:8888"}]
+2025-09-19 20:06:51.593  INFO  [main] c.y.g.c.c.DynamicConfigManager - putServiceDefinition api-gateway -> com.yu.gateway.common.config.ServiceDefinition@5229e9b0
+2025-09-19 20:06:51.600  INFO  [main] c.y.g.r.c.n.i.NacosRegisterCenter - Nacos event is {"removedInstances":[],"groupName":"dev","removed":false,"added":true,"instances":[{"metadata":{"meta":"{\"enable\":true,\"gray\":false,\"ip\":\"10.19.22.108\",\"port\":8888,\"registerTime\":1758283611455,\"serviceInstanceId\":\"10.19.22.108:8888\"}"},"ip":"10.19.22.108","instanceHeartBeatTimeOut":15000,"ephemeral":true,"weight":1.0,"serviceName":"dev@@api-gateway","enabled":true,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceId":"10.19.22.108:8888","port":8888,"healthy":true,"clusterName":"DEFAULT"}],"modified":false,"addedInstances":[{"metadata":{"meta":"{\"enable\":true,\"gray\":false,\"ip\":\"10.19.22.108\",\"port\":8888,\"registerTime\":1758283611455,\"serviceInstanceId\":\"10.19.22.108:8888\"}"},"ip":"10.19.22.108","instanceHeartBeatTimeOut":15000,"ephemeral":true,"weight":1.0,"serviceName":"dev@@api-gateway","enabled":true,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceId":"10.19.22.108:8888","port":8888,"healthy":true,"clusterName":"DEFAULT"}],"serviceName":"api-gateway","clusters":"","modifiedInstances":[]}
+2025-09-19 20:06:51.609  INFO  [main] c.y.g.c.BootStrap - refresh service and instance: api-gateway [{"gray":false,"port":8888,"registerTime":1758283611455,"enable":true,"ip":"10.19.22.108","serviceInstanceId":"10.19.22.108:8888"}]
+2025-09-19 20:06:51.609  INFO  [main] c.y.g.c.c.DynamicConfigManager - putServiceDefinition api-gateway -> com.yu.gateway.common.config.ServiceDefinition@5229e9b0
+2025-09-19 20:06:51.610  INFO  [main] c.y.g.r.c.n.i.NacosRegisterCenter - subscribe a service, serviceName api-gateway envdev
+2025-09-19 20:07:01.633  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - service list size 1
+2025-09-19 20:07:11.645  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - service list size 1
+2025-09-19 20:07:21.653  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - service list size 3
+2025-09-19 20:07:21.653  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - Nacos event is {"serviceName":"backend-user-server"}
+2025-09-19 20:07:21.663  INFO  [doSubscribeAllServices.0] c.y.g.c.BootStrap - refresh service and instance: backend-user-server:1.0.0 [{"gray":false,"port":8201,"registerTime":1758283633152,"enable":true,"ip":"10.19.22.108","serviceInstanceId":"10.19.22.108:8201","weight":100,"version":"1.0.0","uniqueId":"backend-user-server:1.0.0"}]
+2025-09-19 20:07:21.663  INFO  [doSubscribeAllServices.0] c.y.g.c.c.DynamicConfigManager - putServiceDefinition backend-user-server:1.0.0 -> com.yu.gateway.common.config.ServiceDefinition@d1296ba6
+2025-09-19 20:07:21.663  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - Nacos event is {"removedInstances":[],"groupName":"dev","removed":false,"added":true,"instances":[{"metadata":{"meta":"{\"enable\":true,\"gray\":false,\"ip\":\"10.19.22.108\",\"port\":8201,\"registerTime\":1758283633152,\"serviceInstanceId\":\"10.19.22.108:8201\",\"uniqueId\":\"backend-user-server:1.0.0\",\"version\":\"1.0.0\",\"weight\":100}"},"ip":"10.19.22.108","instanceHeartBeatTimeOut":15000,"ephemeral":true,"weight":1.0,"serviceName":"dev@@backend-user-server","enabled":true,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceId":"10.19.22.108:8201","port":8201,"healthy":true,"clusterName":"DEFAULT"}],"modified":false,"addedInstances":[{"metadata":{"meta":"{\"enable\":true,\"gray\":false,\"ip\":\"10.19.22.108\",\"port\":8201,\"registerTime\":1758283633152,\"serviceInstanceId\":\"10.19.22.108:8201\",\"uniqueId\":\"backend-user-server:1.0.0\",\"version\":\"1.0.0\",\"weight\":100}"},"ip":"10.19.22.108","instanceHeartBeatTimeOut":15000,"ephemeral":true,"weight":1.0,"serviceName":"dev@@backend-user-server","enabled":true,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceId":"10.19.22.108:8201","port":8201,"healthy":true,"clusterName":"DEFAULT"}],"serviceName":"backend-user-server","clusters":"","modifiedInstances":[]}
+2025-09-19 20:07:21.667  INFO  [doSubscribeAllServices.0] c.y.g.c.BootStrap - refresh service and instance: backend-user-server:1.0.0 [{"gray":false,"port":8201,"registerTime":1758283633152,"enable":true,"ip":"10.19.22.108","serviceInstanceId":"10.19.22.108:8201","weight":100,"version":"1.0.0","uniqueId":"backend-user-server:1.0.0"}]
+2025-09-19 20:07:21.667  INFO  [doSubscribeAllServices.0] c.y.g.c.c.DynamicConfigManager - putServiceDefinition backend-user-server:1.0.0 -> com.yu.gateway.common.config.ServiceDefinition@d1296ba6
+2025-09-19 20:07:21.667  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - subscribe a service, serviceName backend-user-server envdev
+2025-09-19 20:07:21.667  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - Nacos event is {"serviceName":"backend-http-server"}
+2025-09-19 20:07:21.673  INFO  [doSubscribeAllServices.0] c.y.g.c.BootStrap - refresh service and instance: backend-http-server:1.0.0 [{"gray":false,"port":8201,"registerTime":1758283633350,"enable":true,"ip":"10.19.22.108","serviceInstanceId":"10.19.22.108:8201","weight":100,"version":"1.0.0","uniqueId":"backend-http-server:1.0.0"}]
+2025-09-19 20:07:21.674  INFO  [doSubscribeAllServices.0] c.y.g.c.c.DynamicConfigManager - putServiceDefinition backend-http-server:1.0.0 -> com.yu.gateway.common.config.ServiceDefinition@1a3aaa09
+2025-09-19 20:07:21.674  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - Nacos event is {"removedInstances":[],"groupName":"dev","removed":false,"added":true,"instances":[{"metadata":{"meta":"{\"enable\":true,\"gray\":false,\"ip\":\"10.19.22.108\",\"port\":8201,\"registerTime\":1758283633350,\"serviceInstanceId\":\"10.19.22.108:8201\",\"uniqueId\":\"backend-http-server:1.0.0\",\"version\":\"1.0.0\",\"weight\":100}"},"ip":"10.19.22.108","instanceHeartBeatTimeOut":15000,"ephemeral":true,"weight":1.0,"serviceName":"dev@@backend-http-server","enabled":true,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceId":"10.19.22.108:8201","port":8201,"healthy":true,"clusterName":"DEFAULT"}],"modified":false,"addedInstances":[{"metadata":{"meta":"{\"enable\":true,\"gray\":false,\"ip\":\"10.19.22.108\",\"port\":8201,\"registerTime\":1758283633350,\"serviceInstanceId\":\"10.19.22.108:8201\",\"uniqueId\":\"backend-http-server:1.0.0\",\"version\":\"1.0.0\",\"weight\":100}"},"ip":"10.19.22.108","instanceHeartBeatTimeOut":15000,"ephemeral":true,"weight":1.0,"serviceName":"dev@@backend-http-server","enabled":true,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceId":"10.19.22.108:8201","port":8201,"healthy":true,"clusterName":"DEFAULT"}],"serviceName":"backend-http-server","clusters":"","modifiedInstances":[]}
+2025-09-19 20:07:21.677  INFO  [doSubscribeAllServices.0] c.y.g.c.BootStrap - refresh service and instance: backend-http-server:1.0.0 [{"gray":false,"port":8201,"registerTime":1758283633350,"enable":true,"ip":"10.19.22.108","serviceInstanceId":"10.19.22.108:8201","weight":100,"version":"1.0.0","uniqueId":"backend-http-server:1.0.0"}]
+2025-09-19 20:07:21.677  INFO  [doSubscribeAllServices.0] c.y.g.c.c.DynamicConfigManager - putServiceDefinition backend-http-server:1.0.0 -> com.yu.gateway.common.config.ServiceDefinition@1a3aaa09
+2025-09-19 20:07:21.677  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - subscribe a service, serviceName backend-http-server envdev
+2025-09-19 20:07:31.683  INFO  [doSubscribeAllServices.0] c.y.g.r.c.n.i.NacosRegisterCenter - service list size 3
+2025-09-19 20:07:41.385  INFO  [Thread-1] c.a.n.c.e.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-09-19 20:07:41.385  INFO  [Thread-9] c.a.n.c.n.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-19 20:07:41.385  INFO  [Thread-7] c.a.n.c.h.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-19 20:07:41.385  INFO  [Thread-9] c.a.n.c.n.NotifyCenter - [NotifyCenter] Completed destruction of Publisher
+2025-09-19 20:07:41.385  INFO  [Thread-1] c.a.n.c.e.ThreadPoolManager - [ThreadPoolManager] Completed destruction of ThreadPool
+2025-09-19 20:07:41.386  INFO  [Thread-7] c.a.n.c.h.HttpClientBeanHolder - [HttpClientBeanHolder] Completed destruction of HttpClient
+2025-09-19 20:07:41.388  ERROR [nacos.publisher-com.alibaba.nacos.client.config.impl.ConfigFuzzyWatchLoadEvent] c.a.n.c.n.NotifyCenter - Event listener exception : 
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:111)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+2025-09-19 20:07:41.388  ERROR [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent] c.a.n.c.n.NotifyCenter - Event listener exception : 
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:111)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+2025-09-19 20:07:41.388  ERROR [nacos.publisher-com.alibaba.nacos.client.naming.event.NamingFuzzyWatchNotifyEvent] c.a.n.c.n.NotifyCenter - Event listener exception : 
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:111)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+2025-09-19 20:07:41.388  ERROR [nacos.publisher-com.alibaba.nacos.client.naming.event.NamingFuzzyWatchLoadEvent] c.a.n.c.n.NotifyCenter - Event listener exception : 
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:111)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+2025-09-19 20:07:41.388  ERROR [nacos.publisher-com.alibaba.nacos.client.config.impl.ConfigFuzzyWatchNotifyEvent] c.a.n.c.n.NotifyCenter - Event listener exception : 
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:111)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+2025-09-19 20:07:41.388  ERROR [nacos.publisher-com.alibaba.nacos.common.notify.SlowEvent] c.a.n.c.n.NotifyCenter - Event listener exception : 
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:111)
+	at com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)

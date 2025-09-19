@@ -9,6 +9,12 @@
     <file url="file://$PROJECT_DIR$/YuGateway-Config-Center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/YuGateway-Core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/YuGateway-Core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/BlossomGateway-Dubbo-Interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/BlossomGateway-Dubbo-Interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/BlossomGateway-Dubbo-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/BlossomGateway-Dubbo-Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/BlossomGateway-Dubbo-Web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/BlossomGateway-Dubbo-Web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/YuGateway-Dubbo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/YuGateway-HttpServer/YuGateway-http-1/src/main/java" charset="UTF-8" />

@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="YuGateway-Dubbo" />
         <module name="YuGateway-Register-Center-Nacos-Impl" />
         <module name="YuGateway-Config-Center" />
+        <module name="BlossomGateway-Dubbo-Interface" />
+        <module name="BlossomGateway-Dubbo-Service" />
         <module name="YuGateway-Core" />
         <module name="YuGateway-http-1" />
         <module name="YuGateway-http-2" />
         <module name="YuGateway-Common" />
         <module name="YuGateway-Register-Center-Api" />
+        <module name="BlossomGateway-Dubbo-Web" />
         <module name="YuGateway-Client" />
       </profile>
     </annotationProcessing>

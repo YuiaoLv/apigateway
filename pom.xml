@@ -15,6 +15,9 @@
         <module>YuGateway-Core</module>
         <module>YuGateway-HttpServer</module>
         <module>YuGateway-Register-Center</module>
+        <module>YuGateway-Dubbo</module>
+        <module>YuGateway-Dubbo/BlossomGateway-Dubbo-Service</module>
+        <module>YuGateway-Dubbo/BlossomGateway-Dubbo-Web</module>
     </modules>
 
 
